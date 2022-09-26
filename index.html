@@ -14,16 +14,13 @@
             Search : <br/>
             <input type="text" id="searhBox" /><br/><br/>
             Filter:
-            <div id="'filter"></div>
+            <div id="filters"></div>
             <div id="count"></div>
         </div>
         <ul id="listing"> </ul>
     </div>
     <script type="text/template" id="person-template">
-        <span class='list-header'>
-            <%= firstname %>
-            <%= lastname %>
-        </span>
+        <span class="list-header"><%= firstname %> <%= lastname %> (<%= type %>)</span>
         <div class='details'>
             Mobile No. : <%= homephone %> <br/>
             Email : <a href="mailto : <%= email %> "><%= email %></a>
