@@ -44,7 +44,7 @@ app.views.People = Backbone.View.extend({
 	},
 	
 	events: {
-		'keyup #searchBox': 'searchFilter',
+		'keyup #searhBox': 'searchFilter',
 		'click a.filter': 'setFilter'
 	},
 	
